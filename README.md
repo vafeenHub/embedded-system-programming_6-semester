@@ -1,6 +1,6 @@
 # Программирование встроенных систем 6 семестр
 
-## lab1
+## lab1 || lab1_2 (измененная схема от lab1)
 
 ![alt text](lab1/image.png)
 
@@ -9,11 +9,11 @@
 Для всех плат:
 ![alt text](lab2/image.png)
 
+## lab3 || lab3_2
 
-## lab3 
+![alt text](lab3/image.png)
 
-
-## Exam 
+## Exam
 
 **Демонстрация работы в ./exam**
 
@@ -36,37 +36,42 @@ Arduino (Дешефратор)
 Эмуляторы: https://wokwi.com/esp32
 Консольный вариант: https://rutube.ru/video/4d5a324aff105ea2949531bbf03a2e1a/
 
-### task1 
+### task1
 
 Установка platformio для компиляции
+
 ```
 pip install platformio
 ```
 
 Загрузка прошивки на ESP
+
 ```
 esptool.exe --chip esp32 --port COM5 write-flash 0x1000 firmware.bin
 ```
 
 Компиляция проекта:
+
 ```
 pio run
 ```
 
 Монитор блютуза:
+
 ```
 platformio device monitor —port COM7 —baud 115200
 ```
 
 ### task2
 
-
 Загрузка прошивки на ESP
+
 ```
 esptool.exe --chip esp32 --port COM5 write-flash 0x1000 firmware.bin
 ```
 
 Компиляция и загрузка прошивки на Arduino
+
 ```
 pio run -t upload
 ```
