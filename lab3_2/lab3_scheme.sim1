@@ -1,0 +1,133 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Seven Segment" CircId="Seven Segment-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,124" rotation="0" hflip="1" vflip="1" label="Seven Segment-1" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="4" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Stepper" CircId="Stepper-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-164,-76" rotation="-360" hflip="1" vflip="1" label="Stepper-2" idLabPos="-32,-62" labelrot="0" valLabPos="-14,36" valLabRot="0" Bipolar="false" Steps="8" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,44" rotation="-90" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,56" rotation="0" hflip="1" vflip="1" label="Led-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,32" rotation="0" hflip="1" vflip="1" label="Led-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="BJT" CircId="BJT-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-84" rotation="-90" hflip="1" vflip="1" label="BJT-12" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-36" rotation="-90" hflip="1" vflip="1" label="BJT-13" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-132" rotation="-90" hflip="1" vflip="1" label="BJT-14" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-180" rotation="-90" hflip="1" vflip="1" label="BJT-15" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.67074 V" />
+
+<item itemtype="MCU" CircId="mega8-17" mainComp="false" Show_id="true" Show_Val="false" Pos="-668,100" rotation="0" hflip="1" vflip="1" label="mega8-assist" idLabPos="-11.2664,125.238" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="12 MHz" Program="lab3/mcu_assist.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" MainMcu="false" SerialMon="-1" />
+
+<item itemtype="MCU" CircId="mega8-18" mainComp="false" Show_id="true" Show_Val="false" Pos="-664,-44" rotation="0" hflip="1" vflip="1" label="mega8-main" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="12 MHz" Program="lab3/mcu_main.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-22" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-596,20" rotation="0" hflip="1" vflip="1" label="ResistorDip-22" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="2" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-556,-4" rotation="0" hflip="1" vflip="1" label="TextComponent-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="0 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Power" />
+
+<item itemtype="TextComponent" CircId="TextComponent-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,68" rotation="0" hflip="1" vflip="1" label="TextComponent-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="0 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Reverse" />
+
+<item itemtype="Ground" CircId="Ground-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-272,-76" rotation="90" hflip="1" vflip="1" label="Ground-29" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-34" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-500,-216" rotation="90" hflip="1" vflip="1" label="Rail-34" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="12 V" />
+
+<item itemtype="SerialTerm" CircId="SerialTerm-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-752,-20" rotation="0" hflip="-1" vflip="1" label="SerialTerm-31" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-36" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-596,-12" rotation="0" hflip="1" vflip="1" label="ResistorDip-36" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="4" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="Node" CircId="Node-23" mainComp="false" Pos="-508,44" />
+
+<item itemtype="Node" CircId="Node-27" mainComp="false" Pos="-500,-140" />
+
+<item itemtype="Node" CircId="Node-28" mainComp="false" Pos="-500,-92" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="-500,-188" />
+
+<item itemtype="Node" CircId="Node-37" mainComp="false" Pos="-700,-12" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="ResistorDip-22-resistor0-ePin0" endpinid="mega8-18-PORTC1" pointList="-612,-4,-624,-4" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="mega8-18-PORTC0" endpinid="ResistorDip-22-resistor1-ePin2" pointList="-624,4,-612,4" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="ResistorDip-22-resistor0-ePin1" endpinid="Led-9-lPin" pointList="-580,-4,-564,-4,-564,32,-556,32" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="ResistorDip-22-resistor1-ePin3" endpinid="Led-8-lPin" pointList="-580,4,-572,4,-572,56,-556,56" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="Led-9-rPin" endpinid="Node-23-1" pointList="-524,32,-508,32,-508,44" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Led-8-rPin" endpinid="Node-23-0" pointList="-524,56,-508,56,-508,44" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-23-2" endpinid="Ground-5-Gnd" pointList="-508,44,-492,44" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="mega8-17-PORTC5" endpinid="Seven Segment-1-pin_b" pointList="-628,108,-564,108" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="mega8-17-PORTC4" endpinid="Seven Segment-1-pin_c" pointList="-628,116,-564,116" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="mega8-17-PORTC3" endpinid="Seven Segment-1-pin_d" pointList="-628,124,-564,124" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="mega8-17-PORTC2" endpinid="Seven Segment-1-pin_e" pointList="-628,132,-564,132" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="mega8-17-PORTC1" endpinid="Seven Segment-1-pin_f" pointList="-628,140,-564,140" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="mega8-17-PORTC0" endpinid="Seven Segment-1-pin_g" pointList="-628,148,-564,148" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="mega8-17-PORTB4" endpinid="Seven Segment-1-pin_commona" pointList="-628,188,-532,188,-532,156" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="BJT-13-emiter" endpinid="Stepper-2-PinB2" pointList="-412,-44,-236,-44" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="BJT-12-emiter" endpinid="Stepper-2-PinA2" pointList="-412,-92,-396,-92,-396,-60,-236,-60" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="BJT-14-emiter" endpinid="Stepper-2-PinB1" pointList="-412,-140,-388,-140,-388,-92,-236,-92" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="BJT-15-emiter" endpinid="Stepper-2-PinA1" pointList="-412,-188,-380,-188,-380,-108,-236,-108" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="BJT-14-collector" endpinid="Node-27-0" pointList="-444,-140,-500,-140" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="BJT-13-collector" endpinid="Node-28-1" pointList="-444,-44,-500,-44,-500,-92" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="BJT-12-collector" endpinid="Node-28-0" pointList="-444,-92,-500,-92" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Node-28-2" endpinid="Node-27-1" pointList="-500,-92,-500,-140" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Stepper-2-PinCo" endpinid="Ground-29-Gnd" pointList="-236,-76,-256,-76" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Rail-34-outnod" endpinid="Node-35-1" pointList="-500,-200,-500,-188" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Node-27-2" endpinid="Node-35-0" pointList="-500,-140,-500,-188" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="Node-35-2" endpinid="BJT-15-collector" pointList="-500,-188,-444,-188" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="SerialTerm-31-pin0" endpinid="mega8-18-PORTD0" pointList="-728,-28,-672,-28" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="mega8-18-PORTC5" endpinid="ResistorDip-36-resistor0-ePin0" pointList="-624,-36,-612,-36" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="mega8-18-PORTC4" endpinid="ResistorDip-36-resistor1-ePin2" pointList="-624,-28,-612,-28" />
+
+<item itemtype="Connector" uid="Connector-85" startpinid="mega8-18-PORTC3" endpinid="ResistorDip-36-resistor2-ePin4" pointList="-624,-20,-612,-20" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="mega8-18-PORTC2" endpinid="ResistorDip-36-resistor3-ePin6" pointList="-624,-12,-612,-12" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="ResistorDip-36-resistor3-ePin7" endpinid="BJT-13-base" pointList="-580,-12,-428,-12,-428,-20" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="ResistorDip-36-resistor2-ePin5" endpinid="BJT-12-base" pointList="-580,-20,-524,-20,-524,-60,-428,-60,-428,-68" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="ResistorDip-36-resistor1-ePin3" endpinid="BJT-14-base" pointList="-580,-28,-540,-28,-540,-108,-428,-108,-428,-116" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="ResistorDip-36-resistor0-ePin1" endpinid="BJT-15-base" pointList="-580,-36,-556,-36,-556,-156,-428,-156,-428,-164" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-37-1" endpinid="SerialTerm-31-pin1" pointList="-700,-12,-728,-12" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="mega8-18-PORTD1" endpinid="Node-37-0" pointList="-672,-20,-700,-20,-700,-12" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="Node-37-2" endpinid="mega8-17-PORTD0" pointList="-700,-12,-700,116,-676,116" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="mega8-17-PORTB3" endpinid="Seven Segment-1-pin_commonb" pointList="-628,196,-500,196,-500,156" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="mega8-17-PORTB2" endpinid="Seven Segment-1-pin_commonc" pointList="-628,204,-468,204,-468,156" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="mega8-17-PORTB1" endpinid="Seven Segment-1-pin_commond" pointList="-628,212,-436,212,-436,156" />
+
+<item itemtype="Connector" uid="Connector-98" startpinid="mega8-17-PORTC6" endpinid="Seven Segment-1-pin_a" pointList="-676,108,-684,108,-684,92,-572,92,-572,100,-564,100" />
+
+</circuit>
